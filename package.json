@@ -4,8 +4,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./src/index",
-    "start": "node ./src/index",
+    "dev": "nodemon /src/index.js",
+    "start": "node /src/index.js",
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
