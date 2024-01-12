@@ -150,3 +150,65 @@
     font-size: 17px;
     font-weight: 400;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 250px;
+    top: 11px;
+    right: 35px;
+    justify-content: space-around;
+}
+
+.head-sign-up {
+    padding: 10px;
+    border-radius: 7.5px;
+    border-color: rgb(47, 113, 255);
+    border-style: none;
+    width: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(47, 113, 255);
+    color: white;
+    transition: 0.25s;
+}
+
+.head-sign-up:hover {
+    background-color: rgb(75, 113, 255);
+    border-color: rgb(75, 113, 255);
+    transition: 0.25s;
+}
+
+.head-sign-up:active {
+    background-color: rgb(131, 133, 255);
+    border-color: rgb(110, 113, 255);
+    transition: 0.1s;
+}
+
+.head-sign-in {
+    padding: 10px;
+    border-radius: 7.5px;
+    border-color: rgb(47, 113, 255);
+    border-style: none;
+    width: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    transition: 0.25s;
+}
+
+.head-sign-in:hover {
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(75, 113, 255);
+    transition: 0.25s;
+}
+
+.head-sign-in:active {
+    background-color: rgb(215, 215, 215);
+    border-color: rgb(110, 113, 255);
+    transition: 0.1s;
+}

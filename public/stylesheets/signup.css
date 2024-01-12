@@ -3,8 +3,10 @@
     src: url(fonts/Inter.ttf)
 }
 
-body {
+.bg {
     overflow: hidden;
+    opacity: 1;
+    background: repeating-linear-gradient( 45deg, rgb(47, 113, 255), rgb(47, 113, 255) 12px,rgb(255, 255, 255) 8px, rgb(255, 255, 255) 40px );
 }
 
 .container {
@@ -20,11 +22,13 @@ body {
     width: 350px;
     height: 290px;
     border-radius: 7.5px;
-    box-shadow: 0px 0px 10px 3px lightgrey;
     padding: 25px;
     padding-top: 15px;
     padding-bottom: 40px;
     margin: auto;
+    background-image: none;
+    background-color: white;
+    opacity: 1;
 }
 
 .center-item {
@@ -115,12 +119,15 @@ body {
 
 .head-bar {
     position: fixed;
-    box-shadow: 0px 0px 10px 3px lightgrey;
     width: 100%;
     left: 0%;
     top: 0%;
     padding-bottom: 5px;
     padding-left: 10px;
+    background-color: white;
+    border-bottom: solid;
+    border-width: 12px;
+    border-color: rgb(47, 113, 255);
 }
 
 .head-bar a {
