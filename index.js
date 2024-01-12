@@ -10,6 +10,14 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/signin', (req, res) => {
+  res.render('signin');
+});
+
+app.get('/signup', (req, res) => {
+  res.render('signup');
+});
+
 app.listen(3000, () => {
   console.log('Server started on http://localhost:3000');
 });

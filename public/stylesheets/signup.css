@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter.ttf)
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    top: 0px;
+}
+
+.center-div {
+    width: 350px;
+    height: 290px;
+    border-radius: 7.5px;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.center-item {
+    margin:auto;
+}
+
+.text-head {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.text-sub {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.input-text {
+    padding: 15px;
+    border-radius: 7.5px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+    width: 315px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(47, 113, 255);
+}
+
+.input-button {
+    padding: 15px;
+    border-radius: 7.5px;
+    border-color: rgb(47, 113, 255);
+    border-style: none;
+    width: 350px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(47, 113, 255);
+    color: white;
+    transition: 0.25s;
+}
+
+.input-button:hover {
+    background-color: rgb(75, 113, 255);
+    border-color: rgb(75, 113, 255);
+    transition: 0.25s;
+}
+
+.input-button:active {
+    background-color: rgb(110, 113, 255);
+    border-color: rgb(110, 113, 255);
+    transition: 0.1s;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+  }
+  
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+  
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+  
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.head-bar {
+    position: fixed;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.head-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-bar-top {
+    display: block;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Inter;
+}
+
+.head-bar-text {
+    display: block;
+    padding-left: 2px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+}
