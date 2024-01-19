@@ -29,6 +29,7 @@
     background-image: none;
     background-color: white;
     opacity: 1;
+    position: relative;
 }
 
 .center-item {
@@ -149,4 +150,17 @@
     font-family: Inter;
     font-size: 17px;
     font-weight: 400;
+}
+
+.show-password {
+    position: absolute;
+    left: 315px;
+    top: 195px;
+    background-color: rgb(47, 113, 255);
+    border-color: white;
+    border-style: solid;
+    border-radius: 7.5px;
+    padding: 5px;
+    color: white;
+    font-family: Inter;
 }

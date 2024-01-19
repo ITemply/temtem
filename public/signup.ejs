@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="stylesheets/signup.css">
 </head>
 
-<script src="js/script.js"></script>
+<script src="js/account.js"></script>
 
 <body class="bg">
     <div class='head-bar'>
@@ -19,19 +19,20 @@
             <span class='text-sub'>Create a TemTem account or <a href='/signin' class='link'>sign into</a> one.</span>
             <br>
             <br>
-            <input type='text' class='center-item input-text' placeholder="Username">
+            <input type='text' class='center-item input-text' placeholder="Username" id="username">
             <br>
             <br>
-            <input type='password' class='center-item input-text' placeholder="Password">
+            <input type='password' class='center-item input-text' placeholder="Password" id="password">
+            <input type="button" class='show-password' value="Show" id="show" onclick="showPass()">
             <br>
             <br>
-            <input type="button" class="center-item input-button" value="Sign Up"></input>
+            <input type="button" class="center-item input-button" value="Sign Up" onclick="createAccount()">
             <div hidden>
                 <br>
                 <br>
                 <div class="separator">Or</div>
                 <br>
-                <input type="button" class="center-item input-button" value="Sign Up With Google"></input>
+                <input type="button" class="center-item input-button" value="Sign Up With Google">
             </div>
         </div>
     </div>
