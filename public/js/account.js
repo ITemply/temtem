@@ -23,7 +23,7 @@ function logError(errorText) {
     const accountData = {username: accountUsername, password: accountPassword}
   
     try {
-      const senddata = await fetch('/signup', {
+      const senddata = await fetch('/signup-new', {
         method: 'POST',
         body: JSON.stringify(accountData),
         headers: {
